@@ -1,0 +1,35 @@
+.dropdown {
+  position: absolute;
+  bottom: 165px;
+  left: 90%;
+}
+.figure {
+  width: 220px;
+}
+
+@media only screen and (max-width: 767px) {
+  .filters {
+    display: flex;
+    flex-direction: column;
+  }
+  .searchBox {
+    margin-right: 15%;
+    padding-bottom: 5%;
+  }
+
+  .productos_relacionados {
+    flex-direction: column;
+  }
+  .figure {
+    width: 400px;
+  }
+  .dropdown {
+    position: absolute;
+    bottom: 35%;
+    left: 52%;
+  }
+
+  .talla {
+    display: flex;
+  }
+}

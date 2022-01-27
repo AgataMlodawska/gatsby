@@ -1,0 +1,22 @@
+.tituloCabecera:hover {
+  color: #fb088c;
+  transition: color 0.5s cubic-bezier(0.33, 0, 0.67, 1);
+  cursor: pointer;
+}
+.parte-tramitar-pedido {
+  position: fixed;
+  margin-left: 47%;
+}
+.boton-descuento {
+  width: 40%;
+}
+@media (max-width: 1470px) {
+  .parte-tramitar-pedido {
+    position: relative;
+    margin-top: 0%;
+    margin-left: 0%;
+  }
+}
+.parte-pago {
+  margin-top: 8%;
+}
